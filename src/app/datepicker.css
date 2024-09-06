@@ -1,0 +1,60 @@
+/* DatePicker.css */
+
+.container {
+  max-width: 30rem; /* Maximum width for the container */
+  margin: 0 auto; /* Center the container */
+  padding: 1.5rem; /* Padding around the container */
+}
+
+h1 {
+  font-size: 1.5rem; /* Font size for the title */
+  font-weight: bold; /* Bold font weight */
+  margin-bottom: 1.5rem; /* Space below the title */
+  text-align: center; /* Center the title text */
+}
+
+label {
+  display: block; /* Block display for labels */
+  font-size: 1.125rem; /* Font size for labels */
+  margin-bottom: 0.5rem; /* Space below the label */
+}
+
+input[type="date"] {
+  border: 1px solid #d1d5db; /* Light gray border */
+  padding: 0.5rem; /* Padding inside the input */
+  border-radius: 0.375rem; /* Rounded corners */
+  width: 100%; /* Full width */
+  margin-bottom: 1rem; /* Space below the input */
+  transition: border-color 0.2s; /* Smooth transition for border color */
+}
+
+input[type="date"]:focus {
+  border-color: #3b82f6; /* Blue border on focus */
+  outline: none; /* Remove default outline */
+}
+
+.mb-4 {
+  margin-bottom: 1rem; /* Bottom margin utility class */
+}
+
+.text-lg {
+  font-size: 1.125rem; /* Large font size utility class */
+}
+
+/* Add some styles for the recurrence options and customization */
+.recurrence-options,
+.recurrence-customization {
+  background-color: #f9fafb; /* Light gray background */
+  border: 1px solid #e5e7eb; /* Light gray border */
+  padding: 1rem; /* Padding inside the section */
+  border-radius: 0.375rem; /* Rounded corners */
+  margin-bottom: 1rem; /* Space below the section */
+}
+
+/* Preview Calendar styles */
+.preview-calendar {
+  background-color: #ffffff; /* White background */
+  border: 1px solid #e5e7eb; /* Light gray border */
+  padding: 1rem; /* Padding inside the calendar */
+  border-radius: 0.375rem; /* Rounded corners */
+}
